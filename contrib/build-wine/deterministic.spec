@@ -3,12 +3,13 @@
 from PyInstaller.utils.hooks import collect_data_files, collect_submodules, collect_dynamic_libs
 
 import sys
-for i, x in enumerate(sys.argv):
+"""for i, x in enumerate(sys.argv):
     if x == '--name':
         cmdline_name = sys.argv[i+1]
         break
 else:
-    raise Exception('no name')
+    raise Exception('no name')"""
+cmdline_name = "electrum-ltc-4.3.2"
 
 home = 'C:\\electrum-ltc\\'
 
